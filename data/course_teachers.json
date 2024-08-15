@@ -1,0 +1,32 @@
+{
+  "course_teachers": [
+    {
+      "CourseID": 1,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 2,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 3,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 4,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 5,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 6,
+      "TeacherID": 1
+    },
+    {
+      "CourseID": 7,
+      "TeacherID": 1
+    }
+  ]
+}

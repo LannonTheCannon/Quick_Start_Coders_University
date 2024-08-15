@@ -1,0 +1,172 @@
+{
+  "course_topics": [
+    {
+      "TopicID": 1,
+      "CourseID": 1,
+      "TopicName": "Python Basics",
+      "TopicDescription": "Introduction to Python syntax, variables, data types, and basic operations"
+    },
+    {
+      "TopicID": 2,
+      "CourseID": 1,
+      "TopicName": "Control Structures",
+      "TopicDescription": "Learning about if-else statements, loops, and logical operators in Python"
+    },
+    {
+      "TopicID": 3,
+      "CourseID": 1,
+      "TopicName": "Functions and Modules",
+      "TopicDescription": "Creating and using functions, importing modules, and understanding scope"
+    },
+    {
+      "TopicID": 4,
+      "CourseID": 1,
+      "TopicName": "Simple Game Development",
+      "TopicDescription": "Building basic games using Python and the Pygame library"
+    },
+    {
+      "TopicID": 5,
+      "CourseID": 2,
+      "TopicName": "HTML Fundamentals",
+      "TopicDescription": "Understanding the structure of web pages and basic HTML tags"
+    },
+    {
+      "TopicID": 6,
+      "CourseID": 2,
+      "TopicName": "CSS Styling",
+      "TopicDescription": "Learning to style web pages with CSS, including layouts and responsive design"
+    },
+    {
+      "TopicID": 7,
+      "CourseID": 2,
+      "TopicName": "JavaScript Basics",
+      "TopicDescription": "Introduction to JavaScript for adding interactivity to web pages"
+    },
+    {
+      "TopicID": 8,
+      "CourseID": 2,
+      "TopicName": "Web Project",
+      "TopicDescription": "Creating a multi-page personal website as a course project"
+    },
+    {
+      "TopicID": 9,
+      "CourseID": 3,
+      "TopicName": "Introduction to Data Analysis",
+      "TopicDescription": "Understanding data types, structures, and basic statistical concepts"
+    },
+    {
+      "TopicID": 10,
+      "CourseID": 3,
+      "TopicName": "Data Manipulation with Pandas",
+      "TopicDescription": "Using Pandas library for data cleaning, transformation, and analysis"
+    },
+    {
+      "TopicID": 11,
+      "CourseID": 3,
+      "TopicName": "Data Visualization",
+      "TopicDescription": "Creating charts and graphs using Matplotlib and Seaborn libraries"
+    },
+    {
+      "TopicID": 12,
+      "CourseID": 3,
+      "TopicName": "SQL Basics",
+      "TopicDescription": "Introduction to SQL for querying and managing relational databases"
+    },
+    {
+      "TopicID": 13,
+      "CourseID": 4,
+      "TopicName": "Game Design Principles",
+      "TopicDescription": "Understanding core concepts of game design and player engagement"
+    },
+    {
+      "TopicID": 14,
+      "CourseID": 4,
+      "TopicName": "Scratch Programming",
+      "TopicDescription": "Creating interactive stories and games using Scratch visual programming"
+    },
+    {
+      "TopicID": 15,
+      "CourseID": 4,
+      "TopicName": "JavaScript for Games",
+      "TopicDescription": "Using JavaScript to create simple browser-based games"
+    },
+    {
+      "TopicID": 16,
+      "CourseID": 4,
+      "TopicName": "Game Project",
+      "TopicDescription": "Developing a complete game as a course project"
+    },
+    {
+      "TopicID": 17,
+      "CourseID": 5,
+      "TopicName": "AI Concepts",
+      "TopicDescription": "Introduction to artificial intelligence and machine learning concepts"
+    },
+    {
+      "TopicID": 18,
+      "CourseID": 5,
+      "TopicName": "Python for AI",
+      "TopicDescription": "Using Python libraries like NumPy and scikit-learn for AI tasks"
+    },
+    {
+      "TopicID": 19,
+      "CourseID": 5,
+      "TopicName": "Neural Networks Basics",
+      "TopicDescription": "Understanding and implementing simple neural networks"
+    },
+    {
+      "TopicID": 20,
+      "CourseID": 5,
+      "TopicName": "AI Project",
+      "TopicDescription": "Building a simple AI model for a real-world application"
+    },
+    {
+      "TopicID": 21,
+      "CourseID": 6,
+      "TopicName": "Java Programming Basics",
+      "TopicDescription": "Introduction to Java syntax, object-oriented programming concepts"
+    },
+    {
+      "TopicID": 22,
+      "CourseID": 6,
+      "TopicName": "Android App Fundamentals",
+      "TopicDescription": "Understanding Android app structure, activities, and layouts"
+    },
+    {
+      "TopicID": 23,
+      "CourseID": 6,
+      "TopicName": "UI Design for Mobile",
+      "TopicDescription": "Creating user-friendly interfaces for mobile applications"
+    },
+    {
+      "TopicID": 24,
+      "CourseID": 6,
+      "TopicName": "Mobile App Project",
+      "TopicDescription": "Developing a complete mobile app as a course project"
+    },
+    {
+      "TopicID": 25,
+      "CourseID": 7,
+      "TopicName": "Introduction to Robotics",
+      "TopicDescription": "Understanding basic robotics concepts and components"
+    },
+    {
+      "TopicID": 26,
+      "CourseID": 7,
+      "TopicName": "C++ for Robotics",
+      "TopicDescription": "Learning C++ programming basics for controlling robots"
+    },
+    {
+      "TopicID": 27,
+      "CourseID": 7,
+      "TopicName": "Arduino Programming",
+      "TopicDescription": "Using Arduino platform for robotics projects"
+    },
+    {
+      "TopicID": 28,
+      "CourseID": 7,
+      "TopicName": "Robot Building Project",
+      "TopicDescription": "Designing and building a simple robot as a course project"
+    }
+  ]
+}

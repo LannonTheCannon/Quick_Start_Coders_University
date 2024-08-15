@@ -1,0 +1,11 @@
+{
+  "teachers": [
+    {
+      "TeacherID": 1,
+      "Name": "Lannon Khau",
+      "Qualifications": "Bachelor's in Information Systems and Decision Sciences, Cal State Fullerton",
+      "Biography": "I deeply enjoy seeing the light that turns on for students when they begin taking ownership of their own projects and solve puzzles that give them the confidence to excel in today's digital age.",
+      "SpecialtyAreas": "Python Programming; Web Development; Data Science; AI Chatbot Integration"
+    }
+  ]
+}

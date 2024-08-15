@@ -1,0 +1,29 @@
+TopicID,CourseID,TopicName,TopicDescription
+1,1,Python Basics,"Introduction to Python syntax, variables, data types, and basic operations"
+2,1,Control Structures,"Learning about if-else statements, loops, and logical operators in Python"
+3,1,Functions and Modules,"Creating and using functions, importing modules, and understanding scope"
+4,1,Simple Game Development,Building basic games using Python and the Pygame library
+5,2,HTML Fundamentals,Understanding the structure of web pages and basic HTML tags
+6,2,CSS Styling,"Learning to style web pages with CSS, including layouts and responsive design"
+7,2,JavaScript Basics,Introduction to JavaScript for adding interactivity to web pages
+8,2,Web Project,Creating a multi-page personal website as a course project
+9,3,Introduction to Data Analysis,"Understanding data types, structures, and basic statistical concepts"
+10,3,Data Manipulation with Pandas,"Using Pandas library for data cleaning, transformation, and analysis"
+11,3,Data Visualization,Creating charts and graphs using Matplotlib and Seaborn libraries
+12,3,SQL Basics,Introduction to SQL for querying and managing relational databases
+13,4,Game Design Principles,Understanding core concepts of game design and player engagement
+14,4,Scratch Programming,Creating interactive stories and games using Scratch visual programming
+15,4,JavaScript for Games,Using JavaScript to create simple browser-based games
+16,4,Game Project,Developing a complete game as a course project
+17,5,AI Concepts,Introduction to artificial intelligence and machine learning concepts
+18,5,Python for AI,Using Python libraries like NumPy and scikit-learn for AI tasks
+19,5,Neural Networks Basics,Understanding and implementing simple neural networks
+20,5,AI Project,Building a simple AI model for a real-world application
+21,6,Java Programming Basics,"Introduction to Java syntax, object-oriented programming concepts"
+22,6,Android App Fundamentals,"Understanding Android app structure, activities, and layouts"
+23,6,UI Design for Mobile,Creating user-friendly interfaces for mobile applications
+24,6,Mobile App Project,Developing a complete mobile app as a course project
+25,7,Introduction to Robotics,Understanding basic robotics concepts and components
+26,7,C++ for Robotics,Learning C++ programming basics for controlling robots
+27,7,Arduino Programming,Using Arduino platform for robotics projects
+28,7,Robot Building Project,Designing and building a simple robot as a course project

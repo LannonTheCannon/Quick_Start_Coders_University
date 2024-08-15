@@ -1,0 +1,209 @@
+{
+  "courses": [
+    {
+      "CourseID": 1,
+      "ProgramName": "Python Pioneers",
+      "AgeRange": "10-12",
+      "Duration": "3 months",
+      "LanguagesTaught": ["Python"],
+      "Cost": 299.99,
+      "Prerequisites": "None",
+      "LearningOutcomes": [
+        "Create simple games and scripts",
+        "Understand basic programming concepts"
+      ],
+      "ClassFormat": "Online",
+      "ClassSize": 15,
+      "CertificationOffered": "Junior Python Developer",
+      "WeeklyTimeCommitment": "2 hours",
+      "AdditionalCosts": "None",
+      "ProgressTracking": "Monthly progress reports",
+      "HomeworkProjects": "Weekly coding challenges",
+      "StudentSupport": [
+        "Email",
+        "Forum support",
+        "Weekly office hours"
+      ],
+      "AdvancedOpportunities": "Optional advanced modules",
+      "OnlineSafetyMeasures": "Monitored coding environment",
+      "RefundPolicy": "Full refund within 14 days",
+      "ParentInvolvement": "Monthly parent updates",
+      "CareerPreparation": "Introduction to software development careers"
+    },
+    {
+      "CourseID": 2,
+      "ProgramName": "Web Wizards",
+      "AgeRange": "11-13",
+      "Duration": "3 months",
+      "LanguagesTaught": ["HTML", "CSS", "JavaScript"],
+      "Cost": 349.99,
+      "Prerequisites": "None",
+      "LearningOutcomes": [
+        "Build personal website",
+        "Understand web development basics"
+      ],
+      "ClassFormat": "Hybrid",
+      "ClassSize": 12,
+      "CertificationOffered": "Web Design Fundamentals",
+      "WeeklyTimeCommitment": "3 hours",
+      "AdditionalCosts": "None",
+      "ProgressTracking": "Bi-weekly showcases",
+      "HomeworkProjects": "Design and coding projects",
+      "StudentSupport": [
+        "In-class support",
+        "Phone consultations"
+      ],
+      "AdvancedOpportunities": "Personal project mentoring",
+      "OnlineSafetyMeasures": "Supervised internet usage",
+      "RefundPolicy": "Prorated refund",
+      "ParentInvolvement": "Bi-weekly showcase attendance",
+      "CareerPreparation": "Web design and front-end development career paths"
+    },
+    {
+      "CourseID": 3,
+      "ProgramName": "Data Detectives",
+      "AgeRange": "12-14",
+      "Duration": "3 months",
+      "LanguagesTaught": ["Python", "SQL basics"],
+      "Cost": 399.99,
+      "Prerequisites": "Basic computer skills",
+      "LearningOutcomes": [
+        "Analyze data",
+        "Create visualizations",
+        "Understand data concepts"
+      ],
+      "ClassFormat": "Online",
+      "ClassSize": 10,
+      "CertificationOffered": "Junior Data Analyst",
+      "WeeklyTimeCommitment": "4 hours",
+      "AdditionalCosts": "$25 for dataset access",
+      "ProgressTracking": "Weekly progress checks",
+      "HomeworkProjects": "Data analysis projects",
+      "StudentSupport": [
+        "Email support",
+        "Weekly Q&A sessions"
+      ],
+      "AdvancedOpportunities": "Advanced data challenges",
+      "OnlineSafetyMeasures": "Secure data handling practices",
+      "RefundPolicy": "50% refund within first month",
+      "ParentInvolvement": "Monthly data interpretation workshops",
+      "CareerPreparation": "Introduction to data science and analytics careers"
+    },
+    {
+      "CourseID": 4,
+      "ProgramName": "Game Creators",
+      "AgeRange": "10-14",
+      "Duration": "4 months",
+      "LanguagesTaught": ["Scratch", "Basic JavaScript"],
+      "Cost": 379.99,
+      "Prerequisites": "None",
+      "LearningOutcomes": [
+        "Design and build simple games",
+        "Understand game mechanics"
+      ],
+      "ClassFormat": "In-person",
+      "ClassSize": 20,
+      "CertificationOffered": "Game Design Basics",
+      "WeeklyTimeCommitment": "3 hours",
+      "AdditionalCosts": "None",
+      "ProgressTracking": "Monthly game showcases",
+      "HomeworkProjects": "Incremental game development tasks",
+      "StudentSupport": [
+        "In-class mentoring",
+        "Online forum"
+      ],
+      "AdvancedOpportunities": "Game jam participation",
+      "OnlineSafetyMeasures": "Supervised computer lab",
+      "RefundPolicy": "Full refund within 21 days",
+      "ParentInvolvement": "Parent-child game testing sessions",
+      "CareerPreparation": "Exploration of game development industry"
+    },
+    {
+      "CourseID": 5,
+      "ProgramName": "AI Apprentices",
+      "AgeRange": "13-15",
+      "Duration": "3 months",
+      "LanguagesTaught": ["Python", "Intro to ML libraries"],
+      "Cost": 449.99,
+      "Prerequisites": "Basic Python knowledge",
+      "LearningOutcomes": [
+        "Understand AI concepts",
+        "Build simple ML models"
+      ],
+      "ClassFormat": "Hybrid",
+      "ClassSize": 8,
+      "CertificationOffered": "AI Foundations Certificate",
+      "WeeklyTimeCommitment": "5 hours",
+      "AdditionalCosts": "$50 for cloud computing credits",
+      "ProgressTracking": "Bi-weekly project evaluations",
+      "HomeworkProjects": "AI model development assignments",
+      "StudentSupport": [
+        "One-on-one tutoring",
+        "Online support platform"
+      ],
+      "AdvancedOpportunities": "Participation in AI competitions",
+      "OnlineSafetyMeasures": "Ethical AI guidelines and practice",
+      "RefundPolicy": "Non-refundable after course start",
+      "ParentInvolvement": "Parent-oriented AI ethics workshops",
+      "CareerPreparation": "Insight into AI and ML career opportunities"
+    },
+    {
+      "CourseID": 6,
+      "ProgramName": "Mobile App Makers",
+      "AgeRange": "12-15",
+      "Duration": "4 months",
+      "LanguagesTaught": ["Java", "Android basics"],
+      "Cost": 429.99,
+      "Prerequisites": "None",
+      "LearningOutcomes": [
+        "Develop simple mobile apps",
+        "Understand app lifecycle"
+      ],
+      "ClassFormat": "Online",
+      "ClassSize": 15,
+      "CertificationOffered": "Junior App Developer",
+      "WeeklyTimeCommitment": "4 hours",
+      "AdditionalCosts": "$20 for app publishing",
+      "ProgressTracking": "Weekly code reviews",
+      "HomeworkProjects": "Incremental app development projects",
+      "StudentSupport": [
+        "Live coding sessions",
+        "Peer review forums"
+      ],
+      "AdvancedOpportunities": "App showcase event participation",
+      "OnlineSafetyMeasures": "Secure coding practices",
+      "RefundPolicy": "75% refund within first two weeks",
+      "ParentInvolvement": "Beta testing with family members",
+      "CareerPreparation": "Mobile app development career exploration"
+    },
+    {
+      "CourseID": 7,
+      "ProgramName": "Robotics Rookies",
+      "AgeRange": "11-14",
+      "Duration": "3 months",
+      "LanguagesTaught": ["C++", "Arduino"],
+      "Cost": 499.99,
+      "Prerequisites": "None",
+      "LearningOutcomes": [
+        "Build and program simple robots",
+        "Understand basic electronics"
+      ],
+      "ClassFormat": "In-person",
+      "ClassSize": 10,
+      "CertificationOffered": "Robotics Enthusiast",
+      "WeeklyTimeCommitment": "3 hours",
+      "AdditionalCosts": "$75 for robotics kit",
+      "ProgressTracking": "Bi-weekly robot performance tests",
+      "HomeworkProjects": "Robot building and programming tasks",
+      "StudentSupport": [
+        "Hands-on lab sessions",
+        "Email support"
+      ],
+      "AdvancedOpportunities": "Robotics competition entry",
+      "OnlineSafetyMeasures": "Lab safety protocols",
+      "RefundPolicy": "Non-refundable (kit provided)",
+      "ParentInvolvement": "Parent-child build sessions",
+      "CareerPreparation": "Introduction to robotics engineering paths"
+    }
+  ]
+}
