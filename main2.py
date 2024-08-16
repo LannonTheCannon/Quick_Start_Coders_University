@@ -31,8 +31,10 @@ Here are some rules to follow:
 1. Always base your answers on the SQL query results provided.
 2. Refer to the previous questions and answers in the chat history when answering new questions.
 3. If additional context from previous interactions is necessary, infer and use that context.
-4. When the user asks to see a table, provide the table that is neatly sectioned into rows and columns using context.
-5. Make sure to keep the responses as concise and informative as possible.
+4. Generate ONLY one SQL statement AT A TIME to AVOID execution errors.
+5. IMPORTANT: DO NOT GENERATE MORE THAN ONE SQL STATEMENT AT A TIME.
+6. Make sure to keep the responses as concise and informative as possible.
+7. when asked to create a table, always create a table that is nicely sectioned in rows and columns for the user.
 Here is the chat history, use this to understand the context of the conversation:
 {chat_history}
 Given the question: '{question}' and the SQL query result: {sql_result}, provide a concise and informative answer.

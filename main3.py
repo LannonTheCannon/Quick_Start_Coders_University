@@ -48,6 +48,9 @@ except Exception as e:
     st.error(f"Failed to initialize the language model: {str(e)}")
     st.stop()
 
+if "memory" not in st.session_state:
+    st.session_state.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+
 # Initialize memory
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
@@ -59,8 +62,9 @@ Here are some rules to follow:
 1. Always base your answers on the SQL query results provided.
 2. Refer to the previous questions and answers in the chat history when answering new questions.
 3. If additional context from previous interactions is necessary, infer and use that context.
-4. When the user asks to see a table, provide the table that is neatly sectioned into rows and columns using context.
+4. Generate ONLY one SQL statement AT A TIME to AVOID execution errors.
 5. Make sure to keep the responses as concise and informative as possible.
+6. when asked to create a table, always create a table that is nicely sectioned in rows and columns for the user.
 Here is the chat history, use this to understand the context of the conversation:
 {chat_history}
 Given the question: '{question}' and the SQL query result: {sql_result}, provide a concise and informative answer.
@@ -78,17 +82,11 @@ def get_base64_of_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-def clear_memory():
-    global memory
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-    st.session_state.messages = []
-    st.success("Chat history and memory cleared!")
-
 def chatbot(input_text):
     global memory
     try:
         st.write("Generating SQL query...")
-        # Generate SQL query
+        # Generate SQL query with chat history
         sql_query = sql_chain.invoke({
             "question": input_text,
             "chat_history": memory.chat_memory.messages  # Pass chat history
@@ -109,11 +107,20 @@ def chatbot(input_text):
         
         memory.chat_memory.add_user_message(input_text)
         memory.chat_memory.add_ai_message(response)
+
+                # Update session state with the latest memory
+        st.session_state.memory = memory
         
         return response
     except Exception as e:
         st.error(f"An error occurred in chatbot function: {str(e)}")
         return f"An error occurred: {str(e)}"
+
+def clear_memory():
+    memory.clear()
+    st.session_state.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    st.session_state.messages = []
+    st.success("Chat history and memory cleared!")
 
 def display_chatbot():
     st.header("AI Chatbot")
