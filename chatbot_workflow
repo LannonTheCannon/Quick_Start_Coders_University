@@ -1,0 +1,12 @@
+// Chatbot Workflow
+digraph {
+	rankdir=TB size="8,8"
+	generate_sql [label=generate_sql]
+	execute_sql [label=execute_sql]
+	generate_answer [label=generate_answer]
+	generate_sql -> execute_sql
+	__start__ -> generate_sql
+	END [label=END]
+	generate_answer -> END
+	execute_sql -> generate_answer
+}
