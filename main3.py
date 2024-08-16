@@ -53,14 +53,15 @@ memory = ConversationBufferMemory(memory_key="chat_history", return_messages=Tru
 
 # Create a custom prompt template
 template = """
-You are an AI assistant for a coding university for kids. Your task is to answer questions about the courses, 
+You are an AI assistant for a coding university for kids. Your task is to answer questions about the courses,
 teachers, and other aspects of the university. Use the provided SQL query results to inform your answers.
 Here are some rules to follow:
 1. Always base your answers on the SQL query results provided.
-2. If you don't have enough information from the query results, say so and ask for clarification.
-3. Be encouraging and positive about learning to code.
-4. Make sure to keep the responses as short as possible. 
-Here is the chat history, use this to understand the context of the conversation: 
+2. Refer to the previous questions and answers in the chat history when answering new questions.
+3. If additional context from previous interactions is necessary, infer and use that context.
+4. When the user asks to see a table, provide the table that is neatly sectioned into rows and columns using context.
+5. Make sure to keep the responses as concise and informative as possible.
+Here is the chat history, use this to understand the context of the conversation:
 {chat_history}
 Given the question: '{question}' and the SQL query result: {sql_result}, provide a concise and informative answer.
 """
@@ -87,7 +88,11 @@ def chatbot(input_text):
     global memory
     try:
         st.write("Generating SQL query...")
-        sql_query = sql_chain.invoke({"question": input_text})
+        # Generate SQL query
+        sql_query = sql_chain.invoke({
+            "question": input_text,
+            "chat_history": memory.chat_memory.messages  # Pass chat history
+        })
         st.write(f"Generated SQL query: {sql_query}")
         
         st.write("Executing query...")
