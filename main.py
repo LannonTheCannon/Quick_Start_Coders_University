@@ -12,6 +12,7 @@ from src.middle_school_level.syllabus_page import display_syllabus
 from src.middle_school_level.course_structure_page import display_course_structure
 from src.middle_school_level.projects_page import display_projects
 from src.middle_school_level.courses_page import display_courses
+from src.middle_school_level.sign_up_page import display_sign_up
 from utils.styles import get_styles_main, get_profile_image_style, get_styles_landing
 from dotenv import load_dotenv
 import streamlit as st
@@ -431,10 +432,7 @@ def main():
             'Home',
             'Syllabus',
             'Course Structure',
-            'Courses',
-            'Student Projects',
             'AI Chatbot',
-            'FAQ',
             'Sign Up',
         ]
 
@@ -447,14 +445,8 @@ def main():
         display_syllabus()
     elif selected_section == 'Course Structure':
         display_course_structure()
-    elif selected_section == 'Courses':
-        display_courses()
-    elif selected_section == 'Student Projects':
-        display_student_projects()
     elif selected_section == 'AI Chatbot':
         display_chatbot()
-    elif selected_section == 'FAQ':
-        display_faq()
     elif selected_section == 'Sign Up':
         display_sign_up()
 

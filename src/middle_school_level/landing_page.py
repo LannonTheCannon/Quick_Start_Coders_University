@@ -115,9 +115,9 @@ def display_home():
     # Call to Action
     st.header("🚀 Ready to Start Your Coding Adventure?")
     st.write("Join Kids Coding University and blast off into the world of technology!")
-    if st.button("Sign Up for a Free Trial Class"):
-        st.balloons()
-        st.success("Woohoo! We'll contact you soon with details about your free trial class. Get ready for an awesome adventure!")
+##    if st.button("Sign Up for a Free Trial Class"):
+##        st.balloons()
+##        st.success("Woohoo! We'll contact you soon with details about your free trial class. Get ready for an awesome adventure!")
 
     # Footer
     st.markdown("---")

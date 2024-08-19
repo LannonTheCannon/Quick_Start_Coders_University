@@ -154,10 +154,10 @@ def display_syllabus():
     for outcome in outcomes:
         st.markdown(f"- {outcome}")
 
-    # Call to action
-    st.header("🌟 Ready to Start Your Tech Journey?")
-    if st.button("Enroll Now"):
-        st.success("Thanks for your interest! We'll contact you with enrollment details.")
+##    # Call to action
+##    st.header("🌟 Ready to Start Your Tech Journey?")
+##    if st.button("Enroll Now"):
+##        st.success("Thanks for your interest! We'll contact you with enrollment details.")
 
     # Footer note
     st.info("""
