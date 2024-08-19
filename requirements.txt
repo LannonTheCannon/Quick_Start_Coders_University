@@ -4,3 +4,4 @@ openai==0.27.0
 python-dotenv==0.19.2
 pandas==1.4.4
 SQLAlchemy==1.4.39
+pillow==9.5.0
