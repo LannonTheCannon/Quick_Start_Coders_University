@@ -1,1 +1,2 @@
 plotly==5.13.1
+streamlit-timeline==0.0.2 
